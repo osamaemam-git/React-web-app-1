@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import { Button } from './Button';
 import './Navbar.css';
 
-
 function Navbar() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState (true);
@@ -32,9 +31,9 @@ function Navbar() {
         <>
         <nav className="navbar">
             <div className="navbar-container">
-                <Link to="/" classname="navbar-logo" onClick={CloseMobileMenu}>
-                    Sneaker Custom<i className="fab fa-typo3" />
-                </Link>
+            <Link to="/" classname="navbar-logo" onClick={CloseMobileMenu}>
+            Sneaker Custom  <i className="fab fa-typo3" />
+        </Link>
                 <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>

@@ -8,6 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    list-style: none;
   }
   
   .navbar-container {
@@ -31,7 +32,9 @@
   
   .fa-typo3 {
     margin-left: 0.5rem;
-    font-size: 1.8rem;
+    font-size: 2.0rem;
+    text-align: center; 
+    justify-content: center;
   }
   
   .nav-menu {
@@ -105,6 +108,7 @@
       padding: 2rem;
       width: 100%;
       display: table;
+      text-decoration: none;
     }
   
     .nav-links:hover {
@@ -118,6 +122,7 @@
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
+      text-decoration: none;
     }
   
     .menu-icon {
